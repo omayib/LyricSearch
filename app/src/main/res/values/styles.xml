@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="LyricSearchAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/CustomActionBar</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/CustomActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="CustomActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="android:background">@color/lyric_blue_dark</item>
+        <item name="android:homeAsUpIndicator">@mipmap/ic_launcher</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/lyric_blue_dark</item>
+        <item name="homeAsUpIndicator">@mipmap/ic_launcher</item>
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+
+
+    </style>
+
+    <!-- action bar title text -->
+    <style name="TitleTextStyle"
+           parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/lyric_white</item>
+    </style>
+</resources>

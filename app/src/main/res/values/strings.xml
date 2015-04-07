@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lyric Search</string>
+
+    <string name="title_section1">Search</string>
+    <string name="title_section2">Top 10</string>
+    <string name="title_section3">Bookmark</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="ask_to_rate">is this apps helpful you?\n please give 5 star</string>
+
+    <string name="action_settings">Settings</string>
+    <color name="lyric_blue_dark">#1976D2</color>
+    <color name="lyric_blue_light1">#2196F3</color>
+    <color name="lyric_blue_light2">#BBDEFB</color>
+    <color name="lyric_white">#FFFFFF</color>
+    <color name="lyric_brown">#795548</color>
+    <color name="lyric_black">#212121</color>
+    <color name="lyric_gray_dark">#727272</color>
+    <color name="lyric_gray_light">#B6B6B6</color>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1366214993919335/4013734744</string>
+</resources>
